@@ -1,0 +1,349 @@
+@font-face {
+  font-family: 'InterBold';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700px;
+  src: url("../fonts/Inter\ Web/Inter-Bold.woff2?v=3.19") format("woff2"),
+    url("../fonts/Inter\ Web/Inter-Bold.woff?v=3.19") format("woff");
+}
+
+@font-face {
+  font-family: 'InterLight';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/Inter\ Web/Inter-Light.woff2?v=3.19") format("woff2"),
+    url("../fonts/Inter\ Web/Inter-Light.woff?v=3.19") format("woff");
+}
+
+@font-face {
+  font-family: 'InterRegular';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/Inter\ Web/Inter-Regular.woff2?v=3.19") format("woff2"),
+    url("../fonts/Inter\ Web/Inter-Regular.woff?v=3.19") format("woff");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+nav {
+  height: 80px;
+  background: #70259B;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.navbar-menu-container{
+  display: flex;
+  margin:  auto;
+}
+
+.navbar-menu-container {
+  margin: auto;
+  width: 90%;
+}
+
+.navbar-logo-container{
+  margin-top: 17px;
+}
+
+.navbar-links-container {
+  margin: auto;
+  margin-top: 25px;
+}
+
+.navbar-links-container a {
+  margin-right: 3rem;
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+  font-family: InterBold;
+}
+
+.navbar-chat-button-container{
+  margin-top: 14px;
+}
+
+.navbar-chat-button-container button {
+  padding: 0.9rem 1.75rem;
+  background-color: #fff;
+  outline: none;
+  border: none;
+  border-radius: 50px;
+  font-size: 14px;
+  font-family: InterBold;
+  color: #70259B;
+  line-height: 21px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  cursor: pointer;
+}
+
+.home-container-section {
+  position: relative;
+  display: flex;
+  height: 100%;
+}
+
+.home-backgroundImage-container {
+  height: 45rem;
+}
+
+.home-backgroundImage-container img {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  z-index: -2;
+  height: 100%;
+}
+
+.home-text-section {
+  position: static;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 5%;
+  margin-top: 20rem;
+
+}
+
+.home-heading {
+  font-family: InterBold;
+  font-style: normal;
+  font-size: 48px;
+  line-height: 30px;
+  color: #FAFAFA;
+  max-width: 510px;
+
+}
+
+.home-subheading {
+  font-family: InterLight;
+  font-size: 20px;
+  line-height: 30px;
+  max-width: 500px;
+  color: #F5F5F5;
+  margin: 1.5rem 0rem;
+}
+
+.secondary-button {
+  width: 127px;
+  height: 41px;
+  border-radius: 5rem;
+  padding: 10px 20px 10px 20px;
+  gap: 8px;
+  background-color: #70259B;
+  font-family: InterBold;
+  font-size: 14px;
+  line-height: 21px;
+  color: #F5F5F5;
+  -webkit-border-radius: 5rem;
+  -moz-border-radius: 5rem;
+  -ms-border-radius: 5rem;
+  -o-border-radius: 5rem;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.services-container {
+  top: 95%;
+  left: 5%;
+  right: 5%;
+  padding-bottom: 4%;
+  float: inline-start;
+  min-height: 100%;
+}
+
+.services-container-header, .contact-us-container-header {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.services-container-header p{
+  color: #000000;
+}
+
+.services-container-header p, .contact-us-container-header p{
+  padding-left: 20px;
+  font-family: InterRegular;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 120%;
+}
+
+.services-heading {
+  width: 100%;
+  height: 100%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.services-heading h1 {
+  font-family: InterBold;
+  font-size: 48px;
+  line-height: 140%;
+  display: flex;
+  align-items: center;
+  color: #242424;
+}
+
+.kinds-of-services {
+  display: flex;
+  justify-content: top;
+  align-items: center;
+}
+
+.kinds-of-services-info {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.kinds-of-services-info h2 {
+  padding-top: 15%;
+  padding-bottom: 15%;
+  font-family: InterBold;
+  font-size: 24px;
+  line-height: 120%;
+  color: #000000;
+}
+
+.kinds-of-services-info p {
+  width: 90%;
+  font-family: InterRegular;
+  font-size: 20px;
+  line-height: 150%;
+  color: #000000;
+}
+
+.case-studies {
+  padding-top: 5%;
+}
+
+
+.info-background-image img{
+  position: absolute;
+  width: 100%;
+  padding-right: 7%;
+  z-index: -2;
+}
+
+.cases-info-content {
+  z-index: 1;
+  padding-bottom: 25rem;
+  padding-left: 5%;
+  padding-top: 150px;
+  color: #ffff;
+  max-height: 33rem;
+}
+
+.cases-info-content img {
+  padding-top: 130px;
+  
+}
+
+.cases-info-content h2 {
+  padding-top: 10px;
+  font-family: InterBold;
+  font-size: 32px;
+  line-height: 38.4px;
+}
+
+.cases-info-content p {
+  padding-top: 10px;
+  font-family: InterLight;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.industries-container, .cases-body-section, .services-container,
+.contact-us-container {
+  margin-left: 5%;
+  margin-right: 5%;
+  max-width: 100%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.industries-heading, .contact-us-header {
+  padding-top: 5%;
+  padding-bottom: 2%;
+}
+
+.industries-heading h1{
+  font-family: InterBold;
+  font-size: 48px;
+  line-height: 67.2px;
+
+} 
+
+.industries-body-section{
+  padding-top: 5%;
+}
+
+.footer-section {
+  background-color: #430964;
+  color: #FFFFFF;
+  font-family: InterLight;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.contact-us-header {
+  display: flex;
+  gap: 40%;
+}
+
+.heading span{
+  font-family: InterBold;
+  font-size: 40px;
+  line-height: 56px;
+  color: #F5F5F5;
+}
+
+.contact-us-address, .heading{
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-us-footer{
+  display: flex;
+  flex: 1;
+  margin: auto;
+  width: 100%;
+}
+
+.footer-section-column {
+  display: flex;
+  flex-direction: column;
+  width: 20.29rem;
+}
+
+.footer-section-column span {
+  margin: 0.25rem 0rem;
+  cursor: pointer;
+}
